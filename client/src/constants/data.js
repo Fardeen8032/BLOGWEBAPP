@@ -1,0 +1,1 @@
+export const categories=["Education","GeneralAwareness","Technelogy","Sports"]

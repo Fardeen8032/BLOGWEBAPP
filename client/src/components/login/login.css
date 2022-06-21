@@ -1,0 +1,58 @@
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #d4d4d4;
+    align-items: center;
+}
+
+.register{
+    text-decoration: none;
+    color: inherit;
+}
+.Title{
+    font-size: 50px;
+}
+.loginform{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.loginform >label{
+ margin-top: 10px;
+}
+.loginInput{
+    padding: 10px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 41px;
+    outline: none;
+ }
+.Button{
+    margin-top: 20px;
+    cursor:pointer;
+    border:none;
+    border-radius: 41px;
+    font-size: 20px;
+    background: #161a1c;
+    padding: 8px 7px 8px 7px;
+    border: solid #1f628d 0px;
+    color: #ffffff;
+    }
+.Button:hover {
+    background: #ffffff;
+    text-decoration: none;
+    color: black;
+  }
+  .Button:disabled{
+      cursor: not-allowed;
+  }
+  .account{
+      margin-top: 120px;
+  }
+  .account:hover{
+      text-decoration: none;
+      color: red;
+      cursor: pointer;
+  }

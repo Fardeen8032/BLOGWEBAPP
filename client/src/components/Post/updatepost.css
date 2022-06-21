@@ -1,0 +1,57 @@
+#inputFile{
+    display: none;
+ }
+ .create{
+     padding:0px 100px;
+ }
+
+ .createFormGrp{
+     display: flex;
+     flex-direction: row;
+     margin-top: 10px;
+ }
+ .createInput{
+    flex: 1;
+    margin: 0 30px;
+    font-size: 25px;
+    outline: none;
+    border: none;
+
+    margin-top: 76px;
+ }
+
+ .createText{
+   width: 100%;
+   margin-top: 50px;
+   border: none;
+   font-size: 18px;
+   overflow:hidden;
+
+
+}
+
+ .Submit{
+     right: 100px;
+     top: 638px;
+     background:#131414;
+     color:#ffffff;
+     background:#1f242d;
+     float: right;
+     border-radius: 41px;
+     height: 34px;
+     width: 109px;
+     margin-top: 44px;
+}
+
+ .Img{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+    object-fit: cover;
+    margin-top: 129px;
+    border-radius: 20px;
+
+}

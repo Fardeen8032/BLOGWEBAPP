@@ -1,0 +1,55 @@
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #d4d4d4;
+    align-items: center;
+}
+.Title{
+    font-size: 50px;
+}
+.registerform{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.registerform >label{
+ margin-top: 10px;
+}
+.registerInput{
+    padding: 10px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 41px;
+    outline: none;
+}
+.registerButton{
+    margin-top: 20px;
+    cursor:pointer;
+    border:none;
+    border-radius: 41px;
+    font-size: 20px;
+    background: #161a1c;
+    padding: 8px 7px 8px 7px;
+    border: solid #1f628d 0px;
+    color: #ffffff;
+    }
+.registerButton:hover {
+    background: #ffffff;
+    text-decoration: none;
+    color: black;
+  }
+  .newaccount{
+      margin-top: 120px;
+     }
+  .newaccount:hover{
+      text-decoration: none;
+      color: red;
+      cursor: pointer;
+  }
+  .login{
+      text-decoration: none;
+      color: inherit;
+  }
